@@ -31,7 +31,7 @@ export const Home = () => {
 		<div className="card bg-secondary text-white h-100 border-0">
 			<img
 				className="card-img-top"
-				src={`https://picsum.photos/300/300`}
+				src={`https://picsum.photos/seed/${type}-${item.uid}/400/300`}
 				alt={item.name}
 			/>
 			<div className="card-body d-flex flex-column">
